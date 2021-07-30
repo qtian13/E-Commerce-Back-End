@@ -13,6 +13,7 @@ This project is to build the back end for an e-commerce site by modifying starte
 ## Installation
 1. Log in to mysql to create the database
 2. Create a file named .env in the root directory and store your own local varialbes like DB_NAME, DB_USER, DB_PASSWORD
+3. Run the following command to install packages required, seeds database and start the application
 ```bash
 git clone https://github.com/qtian13/E-Commerce-Back-End.git
 npm init -y
@@ -49,7 +50,7 @@ Please reach me out with additional questions!
 Emails: qiushuang.tian@gmail.com
 
 ## Acknowledgments
-- [Berkeley Coding Boot Camp](https://bootcamp.berkeley.edu/coding/) provided mock up image
+- [Berkeley Coding Boot Camp](https://bootcamp.berkeley.edu/coding/) provided mock up image and starter code
 
 
 
