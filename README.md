@@ -34,9 +34,10 @@ npm run watch
 * When user enter the command to invoke the application, the server is started and the Sequelize models are synced to the MySQL database
 * When user open API GET routes in Insomnia Core for categories, products, or tags, the data for each of these routes is displayed in a formatted JSON
 * When user test API POST, PUT, and DELETE routes in Insomnia Core, they are able to successfully create, update, and delete data in their database
+* When user delete a certain category, the data of that category and all the products belongs to that category would also be deleted
 
 ## Demo Video
-Demo Video: []()
+Demo Video: [https://drive.google.com/file/d/1aErAjk8DKeQts1f4_4766ovCLfzKdvvk/view](https://drive.google.com/file/d/1aErAjk8DKeQts1f4_4766ovCLfzKdvvk/view)
 
 ## Author
 Qiushuang Tian
