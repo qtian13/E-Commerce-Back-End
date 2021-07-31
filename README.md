@@ -11,11 +11,13 @@ This project is to build the back end for an e-commerce site by modifying starte
 * [Acknowledgments](#acknowledgments)
 
 ## Installation
-1. Log in to mysql to create the database
-2. Create a file named .env in the root directory and store your own local varialbes like DB_NAME, DB_USER, DB_PASSWORD
-3. Run the following command to install packages required, seeds database and start the application
 ```bash
 git clone https://github.com/qtian13/E-Commerce-Back-End.git
+```
+1. Log in mysql to create the database with command `SOURCE ./db/schema.sql`
+2. Create a file named .env in the root directory and store your own local varialbes like DB_NAME, DB_USER, DB_PW
+3. Run the following command to install required packages, seeds database and start the application
+```bash
 npm init -y
 npm i
 npm run seed
